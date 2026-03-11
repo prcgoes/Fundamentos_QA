@@ -87,3 +87,93 @@ O Teste é a "ferramenta" do QC. É a parte técnica e prática de colocar a mã
 | **QA** | No processo | Prevenir erros | Cria a receita perfeita | 
 | **QC** | No produto | Achar o erro| Conferir se o bolo solou | 
 | **Teste** | Na execução | demonstrar o erro | Dar um agarfada no bolo e conferir o resultado | 
+
+
+## Bugs ≠ Defeitos ≠ Falhas
+
+### Erro
+Erro ocorre por uma falha Humana, pessoas que produz um resultado incorreto. Pode-se afirmar que é a "origem de tudo".
+
+Pode ocorrer devido a acansaço, pressão de prazos, pouca experiência ou má interpretação de requisitos.
+(desenvolvedores, analistas e testadores) 
+
+**Ex:** Um desenvolvedor esquece de considerar que o estoque pode ser zero e escreve a lógica usando apenas "maior que" ($>$) em vez de "maior ou igual a" ($\ge$).
+
+**Erro** ---> pode produzir ---> **Defeito (s)** ---> pode prozir ---> **Falha (s)**
+
+
+### Defeito
+Um defeito é o resultado do Erro, imperfeição ou deficiência em um produto de trabalho (codigo, documento de requisito, design)
+A manifestaçã física do erro no papel ou no código.
+
+**Ex:** _A linha de código if (estoque > 0) gravada no arquivo, quando o requisito pedia para incluir o zero._
+
+**OBS: Um defeito pode existir para sempre sem nunca ser "visto" se aquela linha de código específica nunca for executada.**
+
+### Falha
+
+A falha acontece quando um componente ou o sistema não execiuta a função exigida de acordo com o que foi especificado. Comportamento inadequado na sua execução (_ROUTINE_).
+
+**Ex:** _O usuário tenta finalizar uma compra com o último item do estoque e o sistema exibe uma mensagem de "Erro inesperado: Produto indisponível", impedindo a venda._
+
+  ## Severidade vs Prioridade
+
+  **Severidade** ---> foca ---> Impacto técnico
+  **Prioridade** ---> foca ---> Impacto de negócio e no cronograma
+
+  **Severidade (Impacto Técnico)**
+  Defini o impacto que o defeito tem no desenvolvimento ou na operação de um componente ou sistema.
+  Uma forma de medir a "**gravidade**" do problema sob oponto de vista de software.
+
+  **EX:** Um sistema trava
+
+  **Severidade alta:** funcionalidades importantes deixamm de funcionar; 
+
+  **Severidade baixa:** erro no visual;
+
+  **Prioridade (Impacto de Negócio)**
+  Define o grau de importancia aribuida a um ítem (Ex. Um defeito) para que seja corrigido. Esta atribuição esta relacionada a urgência para o negócio ou para o cliente. Impacto direto.
+
+  **Prioridade alta:** corrigir imediatamente;
+
+  **Prioridade média:** corrigir na proxima sprint;
+  **Prioridade baixa:** corrigir quando houve tempo;
+
+
+  **_Nem sempre um defeito grave precisa ser corrigido agora, e nem sempre um erro estético pode esperar._**
+
+  | CENÁRIO | EXEMPLO PRÁTICO |
+  | :---: | :---: |
+  | **Alta Severidade / Baixa Prioridade** | O sistema trava (crash) ao tentar gerar um relatório de 1990 que ninguém mais usa. É grave, mas não urgente |
+  | **Baixa Severidade / Alta Prioridade** | O logotipo da empresa na página inicial está com as cores erradas ou o nome da marca está escrito errado. Tecnicamente não quebra nada, mas é péssimo para a imagem |
+
+  
+  ## Tipos de Teste
+
+  De acordo com o **ISTQB**, os testes são agrupados em quatro categorias principais baseadas nos seus objetivos:
+
+**Testes Funcionais**
+Focam no "o que" o sistema faz. Eles avaliam as funções que o software deve executar (requisitos funcionais).
+
+**Ex:** Verificar se o sistema permite realizar o login com sucesso.
+
+**Testes Não-Funcionais**
+Focam no "como" o sistema se comporta. Avaliam características como desempenho, usabilidade, segurança e confiabilidade.
+
+**Ex:** Testar se o sistema suporta 1.000 usuários simultâneos sem ficar lento (Teste de Carga).
+
+**Testes de Caixa-Branca (Estruturais)**
+Baseiam-se na análise da estrutura interna do sistema ou componente (o código, o fluxo de dados ou a arquitetura).
+
+**Ex:** Testar se todos os caminhos de uma instrução if/else foram percorridos pelos testes unitários.
+
+**Testes Relacionados a Mudanças**
+Esses ocorrem após a correção de um defeito ou uma alteração no sistema:
+
+**Teste de Confirmação (Re-teste):** Executar os mesmos testes que falharam anteriormente para confirmar que o defeito foi corrigido.
+
+**Teste de Regressão:** Testar partes do sistema que não foram alteradas para garantir que a nova mudança não introduziu novos defeitos em funcionalidades que já estavam boas.
+
+Dica: _O Teste de Regressão pode ser aplicado a qualquer nível de teste (unitário, integração, sistema, aceite)._
+
+
