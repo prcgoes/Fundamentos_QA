@@ -1,52 +1,52 @@
-# Quando o assunto é QA... surgem muitas duvidas?!
+# Quando o assunto é QA... surgem muitas dúvidas?!
 ### Vamos estudar para entender :)
 
 ##  Definição e Importância Estratégica da Garantia de Qualidade
 
 **Introdução ao conceito:**
- A garantia de qualidade (do inglês **Qualyt Assurence (QA)**)  é um conjunto de atividades sistemáticas planejadas para garantir que um produto ou serviço atenda aos requisitor especificados e ás expectativas do cliente.  No contexto de software, o QA não foca apenas no "produto pronto", mas  em todo o **processo** de fabricação.
+ A garantia de qualidade (do inglês **Quality Assurance (QA)**)  é um conjunto de atividades sistemáticas planejadas para garantir que um produto ou serviço atenda aos requisitor especificados e ás expectativas do cliente.  No contexto de software, o QA não foca apenas no "produto pronto", mas em todo o **processo** de fabricação.
 
-#### Na prtatica: O que é QA?
+#### Na prática: O que é QA?
 * **Prevenção:** O foco principal é evitar que o erro aconteça; 
-O cara avisa: "Cuido, se fizermos assim, vai dar erro la na frente"
-* **Processo:** Analise desde a clareza dos documentos até a forma como os desenvolvedores escrevem o codigo. Ele olha como o trabalho está sendo feito para garantir que o resultado seja bom de primeira.
+O cara avisa: "Cuidado, se fizermos assim, vai dar erro futuramente"
+* **Processo:** Análise desde a clareza dos documentos até a forma como os desenvolvedores escrevem o código. Ele olha como o trabalho está sendo feito para garantir que o resultado seja bom de primeira.
 *  **Cultura:** É uma mentalidade de "qualidade  em primeiro lugar" compartilhada por todo o time. 
 É o selo de garantia de que o que está sendo entregue funciona de verdade.
 
-#### O que não é QA? (Quebrando mitos)
+#### Chega de mitos: O que não é QA? 
 
-Para entender o que é QA é preciso diferenciar de concetos comumentes confundidos.
-* **Não é apenas "Caçar Bugs":** Encontrar erros é tarefa do _Testing_. O QA quer entender como o erro apareceu e como mudar o porcesso para que ele não volte a acontecer.
+Para entender o que é QA é preciso diferenciar de conceitos normalmente confundidos.
+* **Não é apenas "Caçar Bugs":** Encontrar erros é tarefa do _Testing_. O QA quer entender como o erro apareceu e como mudar o processo para que ele não volte a acontecer.
 O teste é só uma parte. O QA quer evitar que o erro sequer exista.
-* **Não é o chato do time:**  O QA não te que ser a pessoa que diz apenas "SIM" ou "Não" ao final do projeto, ele deve ser um colaborador desde o dia 1.
-Ele não quer apontar o dedo pro erro do colega, ele quer garantir que o cliente não receba um produto ruim.
-* **Não é burocracia:** Embora utilize processos, o objetivo é a eficiencia e a segurança, não a criação de documentos inúteis.
+* **Não é o chato do time:**  O QA não tem que ser a pessoa que diz apenas "SIM" ou "NÃO" ao final do projeto, ele deve ser um colaborador desde o dia 1.
+Ele não quer apontar o dedo para o erro do colega, ele quer garantir que o cliente não receba um produto ruim.
+* **Não é burocracia:** Embora utilize processos, o objetivo é a eficiência e a segurança, não a criação de documentos inúteis.
 Se o QA só aparece no último dia, ele vira um "bombeiro" apagando incêndio, e não um garantidor de qualidade.
 
-#### A Importancia Fundamental nas Empresas
-A presença de um area ou mentalidade QA é um divisor de aguas entre empresas amadoras e empresas de alta performance.
+#### A Importância Fundamental nas Empresas
+A presença de uma área ou mentalidade QA é um divisor de águas entre empresas amadoras e empresas de alta performance.
 
-* **Viabilidade economica** - A economia é o argumento mais forte para o QA. BAesado na curva de **Custo de Defeito** , quanto mai cedo um deifeito é detectado, mais barato é o seu concerto.  
+* **Viabilidade econômica** - A economia é o argumento mais forte para o QA. Baesado na curva de **Custo de Defeito** , quanto mais cedo um defeito é detectado, mais barato é a sua correção.  
 	
-* **Mantém o cliente feliz**- O QA garante que, quando o usuário clicar no botão, a mágica aconteça. Isso cria confiança. Cliente confio é cliente que continua pagando a mensalidade e indica para os amigos.
+* **Mantém o cliente feliz**- O QA garante que, quando o usuário clicar no botão, a mágica aconteça. Isso cria confiança. Cliente que confia é cliente que continua pagando a mensalidade e indica para os amigos.
 
 * **Deixa o trabalho mais rápido**- Parece loucura, mas testar faz o processo andar mais rápido. Por quê? Porque o time não precisa ficar parando toda hora para consertar coisas que já deveriam estar prontas. O fluxo flui melhor.
 
 ### *Exemplo prático*:
 
 
-| Situação | QuanO que o QA faz | O que a Empresa ganha |
+| Situação | Quando que o QA faz | O que a Empresa ganha |
 | :--- | :---: | ---: |
-| App de BAnco | Testa dse o pix cai na contacerta mesmo com internet lenta | O banco não perde a confiança do cliente com o dinheiro sumido  |
-| BananasSistemas de compras | Garante que o sistema não de um cupo de desconto de 100% em uma compra | A emprea não irá a falencia por um erro de digitação |
-| Instagran/TikTok | Testa se um video carrga sem travar o celular | o usuário continua usando app sem passar raiva |
+| App de Banco | Testa des de o pix cai na conta certa mesmo com internet lenta | O banco não perde a confiança do cliente com o dinheiro sumido  |
+| Sistemas de compras | Garante que o sistema não dê um cupom de desconto de 100% em uma compra | A empresa não irá a falência por um erro de digitação |
+| Instagram/TikTok | Testa se um vídeo carrega sem travar o celular | o usuário continua usando app sem passar raiva |
 
 # QA vs. QC vs. Testes: Quem faz o quê?
 
-Duvida frequente, é muito comum fazermos *confusão* e não saber quem exerce cada papel.
+Dúvida frequente: é muito comum fazermos *confusão* e não saber quem exerce cada papel.
 
 Para melhor entendimento, vamos relacionar com coisas do mundo real. 
-imagine uma **Fabrica de sucos**;
+imagine uma **Fábrica de sucos**;
 
 * **QA** (Quality Assurance) - A Garantia
 O QA é o "dono da receita" e dos processos. Ele não está preocupado com uma garrafa específica, mas sim com a fábrica inteira.
@@ -86,25 +86,25 @@ O Teste é a "ferramenta" do QC. É a parte técnica e prática de colocar a mã
 | :--- | :---: | :---: | ---: |
 | **QA** | No processo | Prevenir erros | Cria a receita perfeita | 
 | **QC** | No produto | Achar o erro| Conferir se o bolo solou | 
-| **Teste** | Na execução | demonstrar o erro | Dar um agarfada no bolo e conferir o resultado | 
+| **Teste** | Na execução | demonstrar o erro | Dar umma garfada no bolo e conferir o resultado | 
 
 
-## Bugs ≠ Defeitos ≠ Falhas
+## Erro ≠ Defeitos ≠ Falhas
 
 ### Erro
-Erro ocorre por uma falha Humana, pessoas que produz um resultado incorreto. Pode-se afirmar que é a "origem de tudo".
+Erro ocorre por uma falha Humana (pessoas) que produz um resultado incorreto. Pode-se afirmar que é a "origem de tudo".
 
-Pode ocorrer devido a acansaço, pressão de prazos, pouca experiência ou má interpretação de requisitos.
+Pode ocorrer devido ao cansaço, pressão de prazos, pouca experiência ou má interpretação de requisitos.
 (desenvolvedores, analistas e testadores) 
 
 **Ex:** Um desenvolvedor esquece de considerar que o estoque pode ser zero e escreve a lógica usando apenas "maior que" ($>$) em vez de "maior ou igual a" ($\ge$).
 
-**Erro** ---> pode produzir ---> **Defeito (s)** ---> pode prozir ---> **Falha (s)**
+**Erro** ---> pode produzir ---> **Defeito (s)** ---> pode produzir ---> **Falha (s)**
 
 
 ### Defeito
-Um defeito é o resultado do Erro, imperfeição ou deficiência em um produto de trabalho (codigo, documento de requisito, design)
-A manifestaçã física do erro no papel ou no código.
+Um defeito é o resultado do Erro, imperfeição ou deficiência em um produto de trabalho (código, documento de requisito, design)
+A manifestação física do erro no papel ou no código.
 
 **Ex:** _A linha de código if (estoque > 0) gravada no arquivo, quando o requisito pedia para incluir o zero._
 
@@ -112,7 +112,7 @@ A manifestaçã física do erro no papel ou no código.
 
 ### Falha
 
-A falha acontece quando um componente ou o sistema não execiuta a função exigida de acordo com o que foi especificado. Comportamento inadequado na sua execução (_ROUTINE_).
+A falha acontece quando um componente ou o sistema não exercita a função exigida de acordo com o que foi especificado. Comportamento inadequado na sua execução (_ROUTINE_).
 
 **Ex:** _O usuário tenta finalizar uma compra com o último item do estoque e o sistema exibe uma mensagem de "Erro inesperado: Produto indisponível", impedindo a venda._
 
@@ -122,22 +122,22 @@ A falha acontece quando um componente ou o sistema não execiuta a função exig
   **Prioridade** ---> foca ---> Impacto de negócio e no cronograma
 
   **Severidade (Impacto Técnico)**
-  Defini o impacto que o defeito tem no desenvolvimento ou na operação de um componente ou sistema.
-  Uma forma de medir a "**gravidade**" do problema sob oponto de vista de software.
+  Definição do impacto que o defeito tem no desenvolvimento ou na operação de um componente ou sistema.
+  Uma forma de medir a "**gravidade**" do problema sob o ponto de vista de software.
 
   **EX:** Um sistema trava
 
-  **Severidade alta:** funcionalidades importantes deixamm de funcionar; 
+  **Severidade alta:** funcionalidades importantes deixando de funcionar; 
 
   **Severidade baixa:** erro no visual;
 
   **Prioridade (Impacto de Negócio)**
-  Define o grau de importancia aribuida a um ítem (Ex. Um defeito) para que seja corrigido. Esta atribuição esta relacionada a urgência para o negócio ou para o cliente. Impacto direto.
+  Define o grau de importância atribuida a um item (Ex. Um defeito) para que seja corrigido. Esta atribuição está relacionada a urgência para o negócio ou para o cliente. Impacto direto.
 
   **Prioridade alta:** corrigir imediatamente;
 
-  **Prioridade média:** corrigir na proxima sprint;
-  **Prioridade baixa:** corrigir quando houve tempo;
+  **Prioridade média:** corrigir na próxima sprint;
+  **Prioridade baixa:** corrigir quando houver tempo;
 
 
   **_Nem sempre um defeito grave precisa ser corrigido agora, e nem sempre um erro estético pode esperar._**
