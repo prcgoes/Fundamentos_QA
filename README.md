@@ -1,6 +1,6 @@
-# Estudos de QA - Qualyt Assurence 🧪
+# Estudos de QA - Quality Assurance 🧪
 
-Repositório criado para documentar os estudos propostos no estágio sobre o processo de Garantia de Qualidade de Software e a relação do profissional de Qualidade de Software - Qualyt Assurence (QA).
+Repositório criado para documentar os estudos propostos no estágio sobre o processo de Garantia de Qualidade de Software e a relação do profissional de Qualidade de Software - Quality Assurance (QA).
 
 ## 📋 Conteúdo
 Este repositório contém o resumo dos seguintes tópicos:
